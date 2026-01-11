@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "plantlens",
+    "slug": "plantlens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.plantlens"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "PLANTNET_API_KEY": "2b10cn8r1f4BDnQBVHELAcxZe",
+      "PERENUAL_API_KEY": "sk-6ppu6918cf8d7322413385",
+       "GROQ_API_KEY": "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"
+    }
+  }
+}
